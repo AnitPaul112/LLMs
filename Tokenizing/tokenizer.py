@@ -43,4 +43,4 @@ def tokenize_function(text_data):
 tokenized_in_batches = train_data.map(tokenize_function, batched=True)
 
 # Tokenize row by row
-tokenized_by_row = train_data.map(tokenize_function, batched=False)
+tokenized_by_row = train_data.map(tokenize_function, batched=False) 
